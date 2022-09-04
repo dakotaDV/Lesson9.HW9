@@ -17,12 +17,10 @@ public class Main {
 
         System.out.println(author1);
         System.out.println(book1);
-
-
+       book1.setYearPublication(1995);
+        System.out.println("Новый год публикации Book1 - " + book1.getYearPublication());
 
     }
-
-
 
     }
 

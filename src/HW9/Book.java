@@ -35,9 +35,15 @@ public class Book {
         return author;
     }
 
+    public int getYearPublication() {
+        return yearPublication;
+    }
+
     public void setYearPublication(int yearPublication) {
         this.yearPublication = yearPublication;
-    }
+        }
+
+
 
     @Override
     public String toString() {
