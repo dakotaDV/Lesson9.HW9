@@ -13,7 +13,7 @@ public class Main {
         var book3 = new Book("Мастер и Маргарита", author3, 1967);
 
 
-        book1.setYearPublication(LocalDate.now().getYear());
+
 
         System.out.println(author1);
         System.out.println(book1);

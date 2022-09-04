@@ -19,11 +19,23 @@ public class Book {
 
     private final String Name;
     private final Author author;
-    public int yearPublication;
+    private int yearPublication;
 
     public Book(String name, Author author, Integer yearPublication) {
         Name = name;
         this.author = author;
+        this.yearPublication = yearPublication;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public Author getAuthor() {
+        return author;
+    }
+
+    public void setYearPublication(int yearPublication) {
         this.yearPublication = yearPublication;
     }
 
